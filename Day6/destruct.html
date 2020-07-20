@@ -1,0 +1,21 @@
+<!-- Question-2) Destructure -->
+<html>
+    <head>
+        <title>Example for Destructure</title>
+    </head>
+    <body>
+        <h1>Destructure</h1>
+        <script>
+            const student = {
+                name: "Helsinki",
+                age: 24,
+                projects: {
+                    diceGame: "Two player dice Game using JS",
+                }
+            }
+            const {name, age} = student;
+            const {diceGame} = student.projects;
+            console.log(name, age, diceGame);
+        </script>
+    </body>
+</html>

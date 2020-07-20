@@ -1,0 +1,25 @@
+<!-- Question-5) If -->
+<html>
+    <head>
+        <title>Example for If</title>
+    </head>
+    <body>
+        <h1>If</h1>
+        <script>
+            var salary = Number(prompt("Enter your Salary: "));
+            if(salary>=0 && salary <= 5000){
+                salary = salary + (2*salary)/100;
+            }
+            else if(salary > 5000 && salary<=10000){
+                salary = salary + (5*salary)/100;
+            }
+            else if(salary > 10000 && salary <= 20000){
+                salary = salary + (7*salary)/100;
+            }
+            else{
+                salary = salary + (10*salary)/100;
+            }
+            console.log(salary);
+        </script>
+    </body>
+</html>
